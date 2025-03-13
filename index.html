@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Header Section for horizontal NAV bar that will link to different sections-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--About Me section-->
+    <section id="aboutme">
+        <img src="dylan.JPG" alt="Dylan's Profile Picture">
+        <h1>Dylan White</h1>
+        <p>I am a 30-something year residing in Greater Boston.  I live with my wife and dog and enjoy spending time outdoors.</p>
+    </section>
+
+    <!--Skills section-->
+    <section id="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">Github</div>
+    </section>
+
+        <!--Projects section-->
+    <section id="projects">
+        <div class="project">
+            <img src="roadtrip.jpg" alt="West Coast Roadtrip">
+            <p class="description">Planning for a West Coast roadtrip in the Fall</p>
+        </div>
+        <div class="project">
+            <img src="garden.jpg" alt="Vegetable Garden Trellis">
+            <p class="description">Vegetables planted in 2 raised garden beds</p>
+        </div>
+        <div class="project">
+            <img src="painting.jpg" alt="Painting the Bathroom">
+            <p class="description">Fresh paint in the bathroom</p>
+        </div>
+    </section>
+
+    <!--Contact Section for contact form-->
+    <section id="contact">
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+</body>
+</html>

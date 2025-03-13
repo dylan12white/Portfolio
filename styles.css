@@ -1,0 +1,122 @@
+/*CSS Reset*/
+body, h1, h2, h3, p, ul, li, nav {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Top horizontal NAV bar, including links*/
+header {
+    background-color: #008080;
+    color: whitesmoke;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul{
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;   
+}
+
+nav a{
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/*Profile picture*/
+#aboutme img {
+    width: 200px;
+    border-radius: 50%;
+    padding: .5em;
+}
+
+/*About Me section*/
+#aboutme{
+    text-align: center;
+    padding: 2em;
+}
+
+/*Skills Section*/
+#skills{
+    justify-content: space-evenly;
+    list-style-type: none;
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #008080;
+    transition: box-shadow 0.3s ease;
+}
+
+/*Projects section (same formatting as skills)*/
+#projects {
+    justify-content: space-evenly;
+    list-style-type: none;
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #008080;
+    transition: box-shadow 0.3s ease;
+ 
+}
+
+#projects img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .description{
+    max-width: 150px;
+    text-align: center;
+  }
+
+.project {
+    margin: 1em;
+    padding: 1em;
+}
+
+/*Contact form*/
+#contact {
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
