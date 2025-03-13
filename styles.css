@@ -98,6 +98,30 @@ nav a:hover{
     text-align: center;
 }
 
+/*Media query for responsive design if smaller than roughly an ipad screen:
+Adjusting nav bar to be a center aligned column
+skill and project classes take up 100% of containers width
+profile image removed */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project{
+        flex-basis: 100%;
+    }
+
+    .skill {
+        flex-basis: 100%;
+    }
+    #aboutme img{
+        display: none;
+       }
+}
+
+
+
 
 
 
